@@ -23,13 +23,6 @@
     }
   },
   "projects": {
-    "ngshop": {
-      "tags": ["scope: client"]
-    },
-    "ngshop-e2e": {
-      "tags": ["scope: client"],
-      "implicitDependencies": ["ngshop"]
-    },
     "admin": {
       "tags": ["scope: client"]
     },

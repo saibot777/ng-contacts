@@ -32,6 +32,10 @@ export class UsersEffects {
     )
   );
 
+  init$(init$: any) {
+    throw new Error('Method not implemented.');
+  }
+
   constructor(
     private actions$: Actions,
     private localstorageService: LocalstorageService,
