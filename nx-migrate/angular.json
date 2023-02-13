@@ -231,45 +231,23 @@
         }
       }
     },
-    "orders": {
+    "contacts": {
       "projectType": "library",
-      "root": "libs/orders",
-      "sourceRoot": "libs/orders/src",
-      "prefix": "orders",
+      "root": "libs/contacts",
+      "sourceRoot": "libs/contacts/src",
+      "prefix": "contacts",
       "architect": {
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["libs/orders/src/**/*.ts", "libs/orders/src/**/*.html"]
+            "lintFilePatterns": ["libs/contacts/src/**/*.ts", "libs/contacts/src/**/*.html"]
           }
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/orders"],
+          "outputs": ["coverage/libs/contacts"],
           "options": {
-            "jestConfig": "libs/orders/jest.config.js",
-            "passWithNoTests": true
-          }
-        }
-      }
-    },
-    "products": {
-      "projectType": "library",
-      "root": "libs/products",
-      "sourceRoot": "libs/products/src",
-      "prefix": "products",
-      "architect": {
-        "lint": {
-          "builder": "@nrwl/linter:eslint",
-          "options": {
-            "lintFilePatterns": ["libs/products/src/**/*.ts", "libs/products/src/**/*.html"]
-          }
-        },
-        "test": {
-          "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/products"],
-          "options": {
-            "jestConfig": "libs/products/jest.config.js",
+            "jestConfig": "libs/contacts/jest.config.js",
             "passWithNoTests": true
           }
         }

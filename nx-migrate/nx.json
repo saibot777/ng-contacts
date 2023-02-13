@@ -37,11 +37,8 @@
       "tags": ["scope: client"],
       "implicitDependencies": ["admin"]
     },
-    "orders": {
-      "tags": ["scope:orders"]
-    },
-    "products": {
-      "tags": ["scope:products"]
+    "contacts": {
+      "tags": ["scope:contacts"]
     },
     "users": {
       "tags": ["scope:users"]

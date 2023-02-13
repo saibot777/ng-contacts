@@ -18,12 +18,12 @@ app.use('/public/uploads', express.static(__dirname + '/public/uploads'));
 app.use(errorHandler);
 
 //Routes
-const productsRoutes = require('./routes/products');
+const contactsRoutes = require('./routes/contacts');
 const usersRoutes = require('./routes/users');
 
 const api = process.env.API_URL;
 
-app.use(`${api}/products`, productsRoutes);
+app.use(`${api}/contacts`, contactsRoutes);
 app.use(`${api}/users`, usersRoutes);
 
 //Database

@@ -1,0 +1,11 @@
+<div class="products-page">
+  <div class="p-grid">
+    <div class="p-col-12">
+      <div class="p-grid" *ngIf="contacts">
+        <div class="p-col-4" *ngFor="let contact of contacts">
+          <contacts-contact-item [contact]="contact"></contacts-contact-item>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

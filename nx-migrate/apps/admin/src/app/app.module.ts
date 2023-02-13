@@ -7,8 +7,8 @@ import { AppComponent } from './app.component';
 import { ShellComponent } from './shared/shell/shell.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { ProductsListComponent } from './pages/products/products-list/products-list.component';
-import { ProductsFormComponent } from './pages/products/products-form/products-form.component';
+import { ContactsListComponent } from './pages/contacts/contacts-list/contacts-list.component';
+import { ContactsFormComponent } from './pages/contacts/contacts-form/contacts-form.component';
 import { UsersListComponent } from './pages/users/users-list/users-list.component';
 import { UsersFormComponent } from './pages/users/users-form/users-form.component';
 import { JwtInterceptor, UsersModule } from '@bluebits/users';
@@ -59,8 +59,8 @@ const UX_MODULE = [
     SidebarComponent,
     ShellComponent,
     DashboardComponent,
-    ProductsListComponent,
-    ProductsFormComponent,
+    ContactsListComponent,
+    ContactsFormComponent,
     UsersListComponent,
     UsersFormComponent
   ],

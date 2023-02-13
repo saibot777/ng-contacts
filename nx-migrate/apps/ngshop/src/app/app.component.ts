@@ -7,9 +7,9 @@ import { UsersService } from '@bluebits/users';
 })
 export class AppComponent implements OnInit {
   constructor(private usersService: UsersService) {}
+  title = 'ngcontacts';
 
   ngOnInit() {
     this.usersService.initAppSession();
   }
-  title = 'ngshop';
 }

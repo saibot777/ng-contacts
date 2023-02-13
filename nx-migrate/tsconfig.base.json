@@ -15,8 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@bluebits/orders": ["libs/orders/src/index.ts"],
-      "@bluebits/products": ["libs/products/src/index.ts"],
+      "@bluebits/contacts": ["libs/contacts/src/index.ts"],
       "@bluebits/users": ["libs/users/src/index.ts"],
       "@env/*": ["environments/*"],
       "@bluebits/ui": ["libs/ui/src/index.ts"]
